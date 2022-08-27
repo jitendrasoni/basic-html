@@ -1,10 +1,13 @@
 <html>
     <head>
         <title>Page Title</title>
+        <script src="utility.js"></script>
         </head>
     <body>
         Hi This is test html page
         <br/>
-        <input type="button" value="Click Me Button" onclick="alert('test');">
+        <input type="button" value="Click Me Button" onclick="showmessage();">
+        <br/>
+        <input type="button" value="Click Me Pass JavaScript value" onclick="showmessage(this);">
     </body>
 </html>
