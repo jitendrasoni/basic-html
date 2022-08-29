@@ -1,6 +1,9 @@
-# basics https://basic-react-nine.vercel.app/
+# Basics https://basic-react-nine.vercel.app/
+
+  
 
 Below are the links for each learning section
-1. [CSS](README - CSS.md) 
-2. [HTML](README - HTML.md) 
-3. [JavaScript](README - JavaScript.md) 
+
+1. [CSS](https://github.com/jitendrasoni/basic-react/blob/feture/basicsetup/README%20-%20CSS.md)
+2. [HTML](https://github.com/jitendrasoni/basic-react/blob/feture/basicsetup/README%20-%20HTML.md)
+3. [JavaScript](https://github.com/jitendrasoni/basic-react/blob/feture/basicsetup/README%20-%20JavaScript.md)
