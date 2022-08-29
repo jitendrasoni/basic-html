@@ -1,13 +1,58 @@
 <html>
-    <head>
-        <title>Page Title</title>
-        <script src="utility.js"></script>
-        </head>
-    <body>
-        Hi This is test html page
-        <br/>
-        <input type="button" value="Click Me Button" onclick="showmessage();">
-        <br/>
-        <input type="button" value="Click Me Pass JavaScript value" onclick="showmessage(this);">
-    </body>
+
+<head>
+  <title>Page Title</title>
+  <script src="utility.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" </head>
+
+<body>
+  Hi This is test html page
+  <div id="resp-table">
+    <div id="resp-table-body">
+      <div class="resp-table-row">
+        <div class="table-body-cell">
+          Sr.No.
+        </div>
+        <div class="table-body-cell">
+          Example
+        </div>
+        <div class="table-body-cell">
+          Control
+        </div>
+        <div class="table-body-cell">
+          Description
+        </div>
+      </div>
+      <div class="resp-table-row">
+        <div class="table-body-cell">
+          1
+        </div>
+        <div class="table-body-cell">
+          Simple Button Click
+        </div>
+        <div class="table-body-cell">
+          <input type="button" value="Click Me Button" onclick="showmessageAlert  ();">
+        </div>
+        <div class="table-body-cell">
+          Simple Alert function
+        </div>
+      </div>
+      <div class="resp-table-row">
+        <div class="table-body-cell">
+          2
+        </div>
+        <div class="table-body-cell">
+          Simple Button Click
+        </div>
+        <div class="table-body-cell">
+          <input type="button" value="Click Me Pass input parameters" onclick="showmessage(this);">
+        </div>
+        <div class="table-body-cell">
+          Simple function with input parameters
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
